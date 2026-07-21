@@ -10,13 +10,13 @@ Hypertext Markup Language's "a href" link/anchor command.
 ```
 ## What values can href have?
 The values for href in HTML are clearly defined to ensure that linking works properly. The au­tho­rized values for href are as follows:
-
-	- An absolute URL: When using a href, the absolute URL is the classic example. It redirects directly to an external website and contains the domain name, the path and (if available) the file name. Example: <a href="www.examplesite.com/topic/index.html">Absolute link to the example page</a>
-	- A relative URL: In a relative URL, you only specify the path (the file name is optional). For this reason, relative URLs are much shorter than absolute ones. Example: <a href="/topic/index.html">Relative link to example page</a>
-	- Link to an element: The direct link to an element is possible if it has a defined ID. This allows you to in­ter­nal­ly link different sections of your website. Example: <a href="#section3">Direct link to an element</a>
-	- Other protocols: href is also suitable for other protocols, such as linking directly to an email address. This works via mailto:. Other protocols may include https://, ftp://, or file:.
-	- Scripts: Scripts, such as JavaScript, are also au­tho­rized values for a href. Example: href="javascript:alert('Do you have any further questions?');">
-
+<ul>
+	<li>An absolute URL: When using a href, the absolute URL is the classic example. It redirects directly to an external website and contains the domain name, the path and (if available) the file name. Example: &lt;a href=&quot;www.examplesite.com/topic/index.html&quot;&gt;Absolute link to the example page&lt;/a&gt;</li>
+	<li>A relative URL: In a relative URL, you only specify the path (the file name is optional). For this reason, relative URLs are much shorter than absolute ones. Example: &lt;a href=&quot;/topic/index.html&quot;&gt;Relative link to example page&lt;/a&gt;</li>
+	<li>Link to an element: The direct link to an element is possible if it has a defined ID. This allows you to in­ter­nal­ly link different sections of your website. Example: &lt;a href=&quot;#section3&quot;&gt;Direct link to an element&lt;/a&gt;</li>
+	<li>Other protocols: href is also suitable for other protocols, such as linking directly to an email address. This works via mailto:. Other protocols may include https://, ftp://, or file:.</li>
+	<li>Scripts: Scripts, such as JavaScript, are also au­tho­rized values for a href. Example: href="javascript:alert('Do you have any further questions?');"></li>
+</ul>
 ## Five examples for how to use a href
 You can use a href for different purposes. Below we’ll show you some of the most common use cases for href in HTML.
 

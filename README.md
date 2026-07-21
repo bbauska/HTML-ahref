@@ -17,34 +17,35 @@ The values for href in HTML are clearly defined to ensure that linking works pro
 	<li>Other protocols: href is also suitable for other protocols, such as linking directly to an email address. This works via mailto:. Other protocols may include https://, ftp://, or file:.</li>
 	<li>Scripts: Scripts, such as JavaScript, are also au­tho­rized values for a href. Example: href="javascript:alert('Do you have any further questions?');"></li>
 </ul>
+
 ## Five examples for how to use a href
 You can use a href for different purposes. Below we’ll show you some of the most common use cases for href in HTML.
 
-### Use an image as a link
+### 1. Use an image as a link
 Use the following code to set an image as a link to a subpage:
 ```
 <a href="https://www.examplesite.com"><img src=" /exampleimage.jpg" alt="image description"></a>
 ```
-### Link to an email address
+### 2. Link to an email address
 Use mailto: to link an email address:
 ```
 <a href="mailto:smith@examplesite.com">smith@examplesite.com</a>
 ```
 The visitor’s email client will open when they click the link and the address (smith@ex­am­ple­site.com) will au­to­mat­i­cal­ly be inserted as the recipient. Al­ter­na­tive­ly, they can also copy and paste the email address into the program or to another location.
 
-### Link to a phone number
+### 3. Link to a phone number
 You can also link a phone number with a href. This is useful if someone accesses your site using a smart­phone and wants to contact you directly. The link looks like this:
 ```
 <a href="tel:+11231234567">0123 1234567</a>
 ```
 It is important to add a plus sign and the in­ter­na­tion­al dialing code after the telephone reference tel:. The zero in the area code is not included.
 
-### Link to JavaScript
+### 4. Link to JavaScript
 You can also link to JavaScript using href. The cor­re­spond­ing code is:
 ```
 <a href="javascript:Example ( )">example</a>
 ```
-### Open a link in a new tab or window
+### 5. Open a link in a new tab or window
 While links are useful, be careful not to send your visitors to an external site directly from your website. With this in mind, it is useful for the link to open in a new tab or a new window. Users will then remain on your site and can look at any ad­di­tion­al in­for­ma­tion at another time. The code for opening a link in a new tab or window looks like this:
 ```
 <a href="http://www.example.org" target="_blank">http://www.example.org</a>
